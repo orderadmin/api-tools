@@ -32,7 +32,7 @@
         }
     },
     "require": {
-        "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+        "php": "^8.2",
         "laminas-api-tools/api-tools-api-problem": "^1.6",
         "laminas-api-tools/api-tools-content-negotiation": "^1.8",
         "laminas-api-tools/api-tools-content-validation": "^1.12",
@@ -48,7 +48,7 @@
         "laminas/laminas-loader": "^2.5.1",
         "laminas/laminas-mvc": "^2.7.9 || ^3.0.2",
         "laminas/laminas-paginator": "^2.7",
-        "laminas/laminas-servicemanager": "^3.11",
+        "laminas/laminas-servicemanager": "^3.11 || ^4.0",
         "laminas/laminas-stdlib": "^2.7.7 || ^3.0.1"
     },
     "require-dev": {
